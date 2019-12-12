@@ -21,7 +21,8 @@
 //  ---------------------------------------------------------------------------
 //
 
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for JOSESwift.
 FOUNDATION_EXPORT double JOSESwiftVersionNumber;
