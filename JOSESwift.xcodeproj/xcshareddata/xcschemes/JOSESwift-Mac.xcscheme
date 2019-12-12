@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "65FBFDE11F45CC7C005C7D68"
-               BuildableName = "JOSESwift.framework"
-               BlueprintName = "JOSESwift"
+               BlueprintIdentifier = "E7381FC423A2E5F100A05214"
+               BuildableName = "JOSESwift_Mac.framework"
+               BlueprintName = "JOSESwift-Mac"
+               ReferencedContainer = "container:JOSESwift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E7381FCC23A2E5F200A05214"
+               BuildableName = "MacTests.xctest"
+               BlueprintName = "MacTests"
                ReferencedContainer = "container:JOSESwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -38,21 +52,6 @@
          </BuildableReference>
       </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "65A9D3D61F45CDD7004E0B61"
-               BuildableName = "Tests.xctest"
-               BlueprintName = "Tests"
-               ReferencedContainer = "container:JOSESwift.xcodeproj">
-            </BuildableReference>
-            <SkippedTests>
-               <Test
-                  Identifier = "CryptoTestCase">
-               </Test>
-            </SkippedTests>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -65,15 +64,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "65FBFDE11F45CC7C005C7D68"
-            BuildableName = "JOSESwift.framework"
-            BlueprintName = "JOSESwift"
-            ReferencedContainer = "container:JOSESwift.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -84,9 +74,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "65FBFDE11F45CC7C005C7D68"
-            BuildableName = "JOSESwift.framework"
-            BlueprintName = "JOSESwift"
+            BlueprintIdentifier = "E7381FC423A2E5F100A05214"
+            BuildableName = "JOSESwift_Mac.framework"
+            BlueprintName = "JOSESwift-Mac"
             ReferencedContainer = "container:JOSESwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
